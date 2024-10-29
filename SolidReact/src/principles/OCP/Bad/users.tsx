@@ -40,7 +40,7 @@ function User({ userDetails }:any) {
     );
 }
 
-function Users() {
+function UsersBad() {
  return (
    <>
      {users.map((user) => {
@@ -50,4 +50,4 @@ function Users() {
  );
 }
 
-export default Users;
+export default UsersBad;

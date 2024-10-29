@@ -1,0 +1,1 @@
+export { default as DialogBAD } from "./Bad/Dialog";

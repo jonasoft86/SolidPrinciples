@@ -57,7 +57,7 @@ const AdminUser = ( userDetails :UserProps) => {
       </User>
     );
 }
-function Users() {
+function UsersGood() {
 
     const userTypes = {
       regular: AdminUser,
@@ -66,7 +66,7 @@ function Users() {
     
     return (
       <>
-        {users.map((user:UserProps) => {
+        {users.map((user) => {
           const UserComponent = userTypes[user.userType]();
           return <UserComponent userDetails={user} key={user.id} />;
         })}
@@ -74,4 +74,4 @@ function Users() {
     );
 }
 
-export default Users;
+export default UsersGood;
