@@ -15,7 +15,8 @@
     "@types/express": "^5.0.0",
     "express": "^4.21.1",
     "nodemon": "^3.1.7",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "typescript": "^5.6.3"
